@@ -17,17 +17,21 @@ Type /newbot and follow his instructions to set up a new bot.
 => you get a key/secret pair
 
 3- deploy your bot to AWS Lambda
+```
 mkdir whateverdir && cd whateverdir
 virtualenv venv (python 3.6+)
 source bin/activate
 pip install -r requirements.txt
 zappa init (will ask for key/secret pair)
 zappa deploy dev
+```
 
 => you get a webhook 'my-custom-url'
 
 4- now connect the webhook to TG with your token and 'my-custom-url'
+```
 curl --request POST --url https://api.telegram.org/bot<Your Telegram TOKEN>/setWebhook --header 'content-type: application/json' --data '{"url": "my-custom-url"}'
+```
 
 boom done.
 
