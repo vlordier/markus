@@ -12,7 +12,7 @@ If you were to store data, you could then run stats on completion, sentiment ana
 You can easily modify the questions.
 
 # Setup  : 
-## * Get a Telegram token 
+## Get a Telegram token 
 Visit the botfather, https://t.me/botfather
 Type /newbot and follow his instructions to set up a new bot.
 => you get your TG token
