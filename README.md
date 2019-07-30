@@ -5,6 +5,8 @@ https://aws.amazon.com/lambda/
 It's scraping a stoic quote, asking for mood status, runs through a bunch of questions, done.
 Not storing data anywhere as you can see in the code.
 
+You can easily modify the questions, never hardcode your AWS credentials.
+
 Steps: 
 1- Get a Telegram token
 Visit the botfather, https://t.me/botfather
